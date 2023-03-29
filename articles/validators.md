@@ -6,7 +6,7 @@ A lot of libraries exist to help with this problem by replacing boilerplate code
 
 ## The problem
 
-From my experience, the problem with complex validations is that they introduce too much coupling. This is usually done in an effort to keep their logic concise and free of duplication. On the other hand, it makes the logic too complex to effectively test, and advanced concepts such as nested business rules are harder to apply. For example, imagine a validator that checks if a string field capturing a username is null or bigger than 20 characters:
+On of the main problems with most complex validations is that they introduce too much coupling. This is usually done in an effort to keep their logic concise and free of duplication. On the other hand, it makes the logic too complex to effectively test, and advanced concepts such as nested business rules are harder to apply. For example, imagine a validator that checks if a string field capturing a username is null or bigger than 20 characters:
 
 ```java
 class UserService {
