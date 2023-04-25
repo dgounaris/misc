@@ -1,3 +1,9 @@
+---
+layout: post
+title:  "Write easily testable and extensible validators utilizing the open-closed design principle"
+date:   2023-04-25 09:07:53 +0300
+categories: jekyll update
+---
 # How to write testable and extensible validators by applying Open-Closed principle
 
 Writing validators has consistently been a very common business-driven tasks for software engineers. While the initial construction of such rules might appear trivial, the maintenance burden increases the more these rules change and overlap.
